@@ -1,0 +1,56 @@
+body{
+    background-color: #dbe3e5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%2392a6ac' fill-opacity='0.51'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.container{
+    max-width:900px;
+    margin:auto;
+}
+header{
+    background-color: white;
+}
+h1{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    font-size:22px;
+    width:25%;
+
+}
+h1,
+nav{
+    display: inline-block;
+}
+nav{
+    text-align: right;
+    width:60%;
+}
+nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:cadetblue;
+}
+.headshot{
+    float:left;
+}
+main{
+    width:600px;
+    display:inline-block;
+}
+aside{
+    width:250px;
+    display: inline-block;
+    vertical-align: top;
+}
+h2{
+    border-bottom:3px black solid ;
+}
+aside img{
+    box-shadow:1px 1px 5px black;
+}
+main,aside{
+    background-color: whitesmoke;
+    padding:5px;
+}
+footer{
+    text-align: center;
+}
